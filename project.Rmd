@@ -1,0 +1,32 @@
+---
+title: "Case study"
+author: "Group 49"
+date: "16 8 2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = T, fig.width = 8, fig.height = 5, out.width = "0.8\\textwidth")
+```
+
+## Introduction
+
+We are developing an application, that will help us analyze our problem.
+
+## Tidy data
+First we upload packages that we need for the future work.
+```{r, message=FALSE}
+# packages
+library(ggplot2)
+library(dplyr)
+library(readr)
+library(readxl)
+library(tidyverse)
+#library(reshape2)
+```
+
+# Importing
+
+starting with data
